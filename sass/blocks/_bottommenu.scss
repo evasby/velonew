@@ -1,0 +1,66 @@
+.bottommenu{
+	background-color: #F0F0F0;
+	padding: 10px 0 11px 0;
+	&_list{
+		text-align: center;
+	}
+	&_item{
+		display: inline-block;
+		margin: 0 75px;
+		@include m960{
+			display: block;
+			margin: 20px 0;
+			text-align: left;
+			position: relative;
+			left: 45%;
+		}
+	}
+	&_link{
+		font-size: 18px;
+		line-height: 22px;
+		font-weight: 700;
+		display: inline-block;
+		position: relative;
+		@include link(#2c3e51, #2c3e51);
+		text-decoration: none;
+		&:hover{
+			opacity: 0.5;
+		}
+		.bottommenu_item:nth-child(1) &:before{
+			content: '';
+			position: absolute;
+			left: -37px;
+			top: -5px;
+			background: url(../images/service_icon.png) no-repeat;
+			width: 31px;
+			height: 31px;
+		}
+		.bottommenu_item:nth-child(2) &:before{
+			content: '';
+			position: absolute;
+			left: -61px;
+			top: -5px;
+			background: url(../images/free_log.png) no-repeat;
+			width: 54px;
+			height: 31px;
+		}
+		.bottommenu_item:nth-child(3) &:before{
+			content: '';
+			position: absolute;
+			left: -31px;
+			top: -5px;
+			background: url(../images/quality_icon.png) no-repeat;
+			width: 24px;
+			height: 31px;
+		}
+		.bottommenu_item:nth-child(4) &:before{
+			content: '';
+			position: absolute;
+			left: -35px;
+			top: -5px;
+			background: url(../images/contact_icon.png) no-repeat;
+			width: 31px;
+			height: 31px;
+		}
+	}
+}

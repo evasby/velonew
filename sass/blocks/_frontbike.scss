@@ -1,0 +1,21 @@
+.frontbike{
+	display: block;
+	text-align: center;
+	text-decoration: none;
+	@include link(#0e76bc, #0e76bc);
+	font-size: 33px;
+	font-weight: 800;
+	line-height: 40px;
+	&:hover{
+		opacity: 0.6;
+	}
+	&_red{
+		color: #e74c3c;
+		display: block;
+	}
+	img{
+		width: 100%;
+		max-width: 319px;
+		height: auto;
+	}
+}

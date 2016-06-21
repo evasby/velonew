@@ -1,0 +1,17 @@
+.fronthalva{
+	text-align: center;
+	padding: 10px 8px 0 8px;
+	img{
+		width: 100%;
+		height: auto;
+	}
+	&_text{
+		font-size: 33px;
+		font-weight: 800;
+		line-height: 40px;
+		color: #2c3e51;
+	}
+	&_red{
+		color: #c95843;
+	}
+}

@@ -1,0 +1,34 @@
+.frontmiddle{
+	@include clearfix;
+	padding: 15px 0 22px 0;
+	&_left{
+		float: left;
+		width: 41%;
+		@include m960{
+			float: none;
+			width: 100%;
+			max-width: 350px;
+			margin: 0 auto;
+		}
+	}
+	&_center{
+		float: left;
+		width: 30%;
+		@include m960{
+			float: none;
+			width: 100%;
+			max-width: 350px;
+			margin: 0 auto;
+		}
+	}
+	&_right{
+		float: left;
+		width: 29%;
+		@include m960{
+			float: none;
+			width: 100%;
+			max-width: 350px;
+			margin: 0 auto;
+		}
+	}
+}

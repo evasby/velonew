@@ -1,0 +1,117 @@
+.redsection{
+	display: block;
+	@include clearfix;
+	height: 67px;
+	background-color: #e74c3c;
+	@include link(#2c3e51, #2c3e51);
+	text-decoration: none;
+	&:hover{
+		opacity: 0.6;
+	}
+	@include m960{
+		height: auto;
+	}
+	&_left{
+		float: left;
+		width: 30%;
+		padding: 4px 10px 0 70px;
+		img{
+			width: 100%;
+			height: auto;
+			@include m960{
+				position: relative;
+				left: -10px;
+			}
+		}
+		.redsection__access &{
+			padding: 4px 0 0 90px;
+			@include m960{
+				padding: 0;
+			}
+			img{
+				@include m960{
+					left: 0;
+				}
+			}
+		}
+		@include m960{
+			float: none;
+			padding: 0;
+			width: 100%;
+			max-width: 300px;
+			margin: 0 auto;
+		}
+	}
+	&_center{
+		float: left;
+		width: 40%;
+		padding-top: 12px;
+		@include clearfix;
+		img{
+			float: left;
+			width: 28%;
+			@include m960{
+				float: none;
+				display: block;
+				width: 100%;
+				max-width: 90px;
+				margin: 0 auto;
+			}
+		}
+		@include m960{
+			float: none;
+			padding: 0;
+			width: 100%;
+			max-width: 300px;
+			margin: 0 auto;
+		}
+	}
+	&_right{
+		float: left;
+		width: 30%;
+		padding-right: 50px;
+		padding: 8px 80px 0 0;
+		img{
+			width: 100%;
+			height: auto;
+		}
+		.redsection__access &{
+			padding: 12px 80px 0 10px;
+			@include m960{
+				padding: 0;
+			}
+		}
+		@include m960{
+			float: none;
+			padding: 0;
+			width: 100%;
+			max-width: 300px;
+			margin: 0 auto;
+		}
+	}
+	&_text{
+		float: left;
+		width: 72%;
+		color: #2c3e51;
+		font-size: 26px;
+		line-height: 44px;
+		font-weight: 800;
+		padding-left: 8px;
+
+		.redsection__access &{
+			font-size: 36px;
+			float: none;
+			display: block;
+			width: 100%;
+			text-align: center;
+		}
+		@include m960{
+			float: none;
+			display: block;
+			width: 100%;
+			max-width: 300px;
+			text-align: center;
+			margin: 0 auto;
+		}
+	}
+}

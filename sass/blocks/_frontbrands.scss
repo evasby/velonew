@@ -1,0 +1,11 @@
+.frontbrands{
+	text-align: right;
+	padding: 10px 20px 0 0;
+	@include m960{
+		padding: 15px 0 0 0;
+		text-align: center;
+	}
+	img{
+		margin-bottom: 32px;
+	}
+}
