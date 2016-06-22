@@ -39,7 +39,7 @@
     color: #ffffff;
     margin: 5px 0;
     padding: 10px;
-    width: 215px;
+    width: 235px;
     font-size: 13px;
     line-height: 17px;
     big {
@@ -60,6 +60,12 @@
     }
     a{
     	@include link(#999, #000);
+    	font-size: 13px;
+    	line-height: 17px;
+    	img{
+    		position: relative;
+    		top: 3px;
+    	}
     }
 	}
 	.field-name-field-product {

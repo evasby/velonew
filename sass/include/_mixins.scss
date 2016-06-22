@@ -13,6 +13,12 @@
 @mixin m960 {
   @media all and (max-width: 959px) { @content; }
 }
+@mixin m360 {
+  @media all and (max-width: 359px) { @content; }
+}
+@mixin m530 {
+  @media all and (max-width: 530px) { @content; }
+}
 //*********************************************************************************/
 @mixin placeholder($color, $opacity:1){
   ::-webkit-input-placeholder { /* Safari, Chrome and Opera */

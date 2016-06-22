@@ -13,5 +13,31 @@
     text-align: center;
     text-transform: uppercase;
     width: 189px;
+    &.thule-title,
+    .page-node &{
+      width: auto;
+      background: none;
+      font-family: Tahoma,​Arial,​Helvetica,​sans-serif;
+      font-size: 23px;
+      font-weight: 400;
+      line-height: 17px;
+      color: #333;
+      text-transform: none;
+      text-align: left;
+      @include m360{
+        line-height: 23px;
+      }
+    }
+    .page-node-12 &{
+      width: 189px;
+      background-color: #e74c3c;
+      font-family: open-sans,sans-serif;
+      font-size: 20px;
+      font-weight: 800;
+      line-height: 30px;
+      color: #ffffff;
+      text-align: center;
+      text-transform: uppercase;
+    }
 	}
 }

@@ -55,10 +55,18 @@
     .header_left &{
     	font-size: 44px;
     	line-height: 33px;
+    	@include m960{
+				font-size: 38px;
+    		line-height: 30px;
+    	}
     }
     .header_right &{
     	font-size: 51px;
     	line-height: 36px;
+    	@include m960{
+				font-size: 46px;
+    		line-height: 36px;
+    	}
     }
 	}
 	&_blue{
@@ -67,10 +75,18 @@
     .header_left &{
     	font-size: 72px;
     	line-height: 55px;
+    	@include m960{
+				font-size: 65px;
+    		line-height: 55px;
+    	}
     }
     .header_right &{
     	font-size: 61px;
     	line-height: 48px;
+    	@include m960{
+				font-size: 55px;
+    		line-height: 48px;
+    	}
     }
 	}
 }
