@@ -1,0 +1,50 @@
+.boxprod{
+	@include clearfix;
+	&_item{
+		float: left;
+	  margin: 5px 2.66%;
+	  overflow: hidden;
+	  padding: 7px 0 10px;
+	  position: relative;
+	  width: 28%;
+	  height: 155px;
+	  @include m960{
+    	.boxprod__thule &{
+	    	padding: 0;
+	    }
+    }
+	  @include m960{
+	  	height: auto;
+	  }
+	  .image{
+	    border: 1px solid #f2f2f2;
+	    //min-height: 110px;
+	    padding: 5px 0;
+	    text-align: center;
+	    &:hover{
+	      border: 1px solid #2c3e51;
+	    }
+	    img{
+	    	width: 100%;
+	    	max-width: 192px;
+	    	height: auto;
+	    }
+	  }
+	  h3{
+	    font-weight: normal;
+	    margin: 3px 0;
+	    padding: 2px 0 4px 10px;
+	    min-height: 51px;
+	    text-align: center;
+	    @include m960{
+	    	.boxprod__thule &{
+		    	font-size: 14px;
+		    	min-height: 61px;
+		    }
+	    }
+	    a{
+	      @include link(#000000, #000000);
+	    }
+	  }
+	}
+}

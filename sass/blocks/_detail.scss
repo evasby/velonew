@@ -1,0 +1,152 @@
+.detail{
+	@include clearfix;
+	.imgprod {
+    float: left;
+    margin-bottom: 20px;
+    text-align: center;
+    width: 510px;
+    @include m960{
+    	float: none;
+    	width: 100%;
+    	max-width: 510px;
+    	margin: 0 auto;
+    }
+    img{
+    	@include m960{
+    		width: 100%;
+    		max-width: 363px;
+    		height: auto;
+    	}
+    }
+	}
+	.prodright {
+		float: right;
+		width: 235px;
+		@include clearfix;
+		@include m960{
+    	float: none;
+    	width: 100%;
+    	max-width: 215px;
+    	margin: 0 auto;
+    }
+	}
+	.prodanons {
+    padding: 5px 0;
+    width: 200px;
+	}
+	.prodprice {
+    background-color: #2c3e51;
+    color: #ffffff;
+    margin: 5px 0;
+    padding: 10px;
+    width: 215px;
+    font-size: 13px;
+    line-height: 17px;
+    big {
+    	color: #e74c3c;
+    	font-size: 16px;
+		}
+	}
+	.thule_saleprice {
+    display: block;
+    text-decoration: line-through;
+	}
+	.zoom {
+    float: right;
+    padding: 15px 0;
+    width: 200px;
+    @include m960{
+    	display: none;
+    }
+    a{
+    	@include link(#999, #000);
+    }
+	}
+	.field-name-field-product {
+    float: left;
+    padding: 15px 0;
+    @include m960{
+    	float: none;
+    	text-align: center;
+    	padding: 0;
+    }
+	}
+	.form-submit{
+		border: 0;
+	}
+	.tabsss{
+		clear: both;
+		border: 0;
+		@include clearfix;
+		.menu{
+			background: none;
+			@include m960{
+				text-align: center;
+			}
+			li{
+				background: none;
+				background-color: #2c3e51;
+				border: 0;
+				border-radius: 0;
+				margin-top: 4px;
+				text-align: left;
+				&:hover{
+					background-color: #666;
+				}
+				a{
+					@include link(#fff, #fff);
+					font-family: Tahoma,​Arial,​Helvetica,​sans-serif;
+					font-size: 13px;
+					line-height: 17px;
+					padding: 3px 15px 4px;
+				}
+				@include m960{
+					float: none;
+					display: inline-block;
+				}
+			}
+			li.ui-state-active{
+				background-color: #fff;
+				border-color: #bab08d;
+    		border-image: none;
+    		border-style: solid solid none;
+    		border-width: 1px 1px medium;
+    		margin-top: 0;
+				a{
+					@include link(#000, #000);
+					font-size: 15px;
+					padding: 5px 15px;
+				}
+			}
+		}
+		.menu_content{
+			p{
+				font-family: arial,​tahoma,​verdana,​sans-serif;
+				font-size: 14px;
+				line-height: 16px;
+		    text-align: justify;
+		    text-indent: 20px;
+		    color: #2c3e51;
+			}
+			table{
+				@include m960{
+					width: 100%!important;
+				}
+				td{
+			  	padding: 3px;
+			  	@include m960{
+			  		text-align: left;
+			  	}
+			  }
+			}
+			&#tabs-3{
+				p{
+					font-size: 13px;
+					@include m960{
+						text-align: center;
+					}
+				}
+			}
+		}
+	}
+}

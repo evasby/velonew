@@ -79,3 +79,103 @@ pre{
 .hide{
   display: none;
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.thule_saleprice{
+  display: block;
+  text-decoration: line-through;
+}
+.thule_logo{
+  position: absolute;
+  top: 15px;
+  left: 0px;
+}
+.thule_text{
+  position: absolute;
+  top: 0px;
+  left: 121px;
+}
+#user-login{
+  input{
+    border: 1px solid #ABADB3;
+  }
+}
+#user-register-form{
+  input{
+    border: 1px solid #ABADB3;
+  }
+}
+.st-pusher{
+  min-height: 511px;
+}
+.js .disn{
+  display: block;
+}
+.widget_invisible, .js .invi, .js .mse_pre_init, .js .an_invi{
+  visibility: visible;
+}
+#page{
+  min-height: auto;
+}
+.mymessage {
+  width: 900px;
+  .messages{
+    width: 100%;
+  }
+}
+
+
+
+
+
+.node-type-display-access .logo, .page-taxonomy-term .logo{
+  float: none;
+  padding: 0px;
+  width: auto;
+}
+.myaccess{
+  //width: 960px;
+  tbody{
+    border-top: none;
+  }
+}
+.puth {
+  color: #ffffff;
+  font-size: 11px;
+  padding: 4px 15px;
+  text-align: right;
+}
+.access-prod_top{
+  @include clearfix;
+}
+.access-prod_top a {
+    color: #ffffff !important;
+    text-decoration: none;
+}
+.access_right {
+    background-color: #0e76bc;
+    color: #ffffff !important;
+    display: block;
+    float: right;
+    font-family: open-sans,sans-serif;
+    font-size: 20px;
+    font-weight: 800;
+    line-height: 30px;
+    min-height: 30px;
+    text-align: center;
+    text-decoration: none;
+    text-transform: uppercase;
+    width: 162px;
+}

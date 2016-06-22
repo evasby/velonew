@@ -1,0 +1,67 @@
+.myform{
+	float: right;
+  /*height: 272px;*/
+  position: relative;
+  width: 390px;
+  background-color: #f0f0f0;
+  border-color: #c9c9c9;
+  border-radius: 5px 5px 0 0;
+  border-style: solid;
+  border-width: 1px;
+  box-shadow: 0 0 8px rgba(127, 127, 127, 0.05), 0 0 8px rgba(127, 127, 127, 0.05);
+  margin-top: 25px;
+  padding: 10px 5px 0 5px;
+  font-family: open-sans,sans-serif;
+  @include m960{
+  	float: none;
+  	width: 100%;
+  	max-width: 390px;
+  	margin: 5px auto 15px auto;
+  }
+  &_label{
+  	color: #2c3e51;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 18px;
+  }
+  &_textarea{
+  	color: #7f7f7f;
+    font-weight: 400;
+    min-height: 52px;
+    padding: 6px;
+    width: 100%;
+    resize: none;
+    border-color: #e3dcd1;
+    border-radius: 2px;
+    border-style: solid;
+    border-width: 1px;
+    color: #7f7f7f;
+    font-family: open-sans,sans-serif;
+    line-height: 25px;
+    padding: 6px;
+  }
+  &_input{
+		color: #7f7f7f;
+    font-weight: 400;
+    min-height: 25px;
+    padding: 6px;
+    width: 100%;
+    border-color: #e3dcd1;
+    border-radius: 2px;
+    border-style: solid;
+    border-width: 1px;
+    color: #7f7f7f;
+    line-height: 25px;
+    padding: 6px;
+  }
+  &_submit{
+  	background: rgba(0, 0, 0, 0) url("../images/u11676-17.png") no-repeat scroll 0 0;
+    min-height: 43px;
+    width: 139px;
+    text-indent: 9999px;
+    white-space: nowrap;
+    overflow: hidden;
+    border: 0;
+    cursor: pointer;
+  }
+}

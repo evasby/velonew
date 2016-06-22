@@ -1,0 +1,78 @@
+.pager_bottom{
+  text-align: center;
+  padding: 28px 0px 0px 0px;
+}
+.mypager{
+  //clear: both;
+  margin: 0px 0px 0px 169px;
+  position: relative;
+  @include clearfix();
+  float: left;
+  .pager_bottom & {
+    margin: 0px 0px 0px 0px;
+    clear: both;
+    float: none;
+    display: inline-block;
+    vertical-align: bottom;
+  }
+  &_text{
+    background-color: #2c3e51;
+    color: #ffffff;
+    font-size: 20px;
+    line-height: 30px;
+    min-height: 29px;
+    text-align: center;
+    width: 50px;
+    //text-transform: uppercase;
+    font-weight: 800;
+    font-family: open-sans,sans-serif;
+    float: left;
+  }
+  &_item{
+    float: left;
+    background-color: #e74c3c !important;
+    padding: 0px !important;
+    color: #ffffff;
+    font-size: 20px;
+    line-height: 30px;
+    min-height: 29px;
+    text-align: center;
+    width: 29px;
+    font-weight: 800;
+    font-family: open-sans,sans-serif;
+    a{
+      display: block;
+      background-color: #2c3e51;
+      @include link(#ffffff, #ffffff);
+      font-size: 20px;
+      line-height: 30px;
+      min-height: 29px;
+      text-align: center;
+      width: 29px;
+      font-weight: 800;
+      font-family: open-sans,sans-serif;
+      text-decoration: none !important;
+      &:hover{
+        background-color: #e74c3c;
+      }
+    }
+  }
+  &_list{
+    float: left;
+    margin: 0px !important;
+  }
+  .ajax-progress{
+    position: absolute;
+    //top: 10px;
+    //left: -6px;
+    top: 8px;
+    left: -25px;
+    .throbber {
+      background: transparent url('../images/ajax-loader.gif') no-repeat 0px 0px; /* tweak this according to your gif */
+      float: left;
+      height: 16px; /* tweak this according to your gif */
+      width: 16px; /* tweak this according to your gif */
+      margin: 0px;
+    }
+  }
+}

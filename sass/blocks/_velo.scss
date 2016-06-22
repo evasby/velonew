@@ -1,0 +1,147 @@
+.velo{
+  .view-header.thule{
+    padding: 15px 0 15px 0;
+    @include m960{
+      padding: 15px 10px;
+      img{
+        width: 100%!important;
+        height: auto!important;
+      }
+    }
+  }
+  #views-exposed-form-bike2-default{
+    .form-item-sort-bef-combine > label{
+      float: left;
+      //display: inline-block;
+    }
+    .form-radios{
+      float: left;
+    }
+  }
+  .views-exposed-form .views-exposed-widgets{
+    width: 960px;
+    padding: 0 0 0 13px;
+    position: relative;
+    @include m960{
+      width: 100%;
+    }
+  }
+  .views-widget-sort-sort_bef_combine{
+    @include m960{
+      float: none;
+      @include clearfix;
+      max-width: 225px;
+      margin: 0 auto;
+    }
+  }
+  .views-exposed-form .views-exposed-widget{
+    &.views-widget-filter-field_catvelo_tid{
+      float: right;
+      margin-right: 23px;
+      & a.active{
+        @include link(#e74c3c, #e74c3c);
+      }
+      @include m960{
+        float: none;
+        margin: 0;
+      }
+    }
+  }
+  &_clear{
+    clear: both;
+  }
+  .view-content{
+    @include clearfix();
+    clear: none;
+  }
+  &_filters{
+    float: left;
+    @include m960{
+      float: none;
+      width: 100%;
+      max-width: 390px;
+      margin: 0 auto;
+    }
+
+  }
+  @include clearfix();
+  .views-exposed-form{
+    //position: relative;
+    .views-exposed-widget{
+      padding: 0px;
+    }
+    
+    .bef-select-as-links{
+      .form-item{
+        @include m960{
+          @include clearfix;
+          max-width: 285px;
+          margin: 0 auto;
+        }
+      }
+      .form-item-edit-field-typevelo-tid-all{
+        display: none;
+      }
+      .form-type-bef-link{
+        float: left;
+      }
+      a{
+        display: block;
+        //background-color: #2c3e51;
+        @include link(#0e76bc, #0e76bc);
+        font-size: 12px;
+        line-height: 18px;
+        min-height: 29px;
+        text-align: center;
+        //width: 29px;
+        font-weight: 800;
+        font-family: open-sans,sans-serif;
+        text-decoration: none;
+        text-transform: uppercase;
+        padding: 0px 5px 0px 5px;
+        margin: 0px 0px 0px 0px;
+        @include m960{
+          font-size: 10px;
+          padding: 0px 3px 0px 3px;
+        }
+        &:hover{
+          //background-color: #c9c9c9;
+        }
+        &.active{
+          //background-color: #e74c3c;
+          //@include link(#ffffff, #ffffff);
+        }
+      }
+    }
+    .ajax-progress{
+      position: absolute;
+      //top: 10px;
+      //left: -6px;
+      top: 40px;
+      left: 470px;
+      .throbber {
+        background: transparent url('../images/ajax-loader.gif') no-repeat 0px 0px; /* tweak this according to your gif */
+        float: left;
+        height: 16px; /* tweak this according to your gif */
+        width: 16px; /* tweak this according to your gif */
+        margin: 0px;
+      }
+    }
+  }
+  &_top{
+    float: left;
+    h1{
+      text-transform: uppercase;
+      font-weight: 800;
+      font-family: open-sans,sans-serif;
+      background-color: #e74c3c;
+      color: #ffffff;
+      font-size: 20px;
+      line-height: 30px;
+      min-height: 30px;
+      text-align: center;
+      width: 146px;
+      float: left;
+    }
+  }
+}
