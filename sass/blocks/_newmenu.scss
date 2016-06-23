@@ -5,6 +5,7 @@
     top: 0;
     left: 0;
     width: 100%;
+    z-index: 20;
   }
 	&_list{
 		text-align: justify;
@@ -78,7 +79,7 @@
     display: block;
     width: 30px;
     height: 3px;
-    right: 15px;
+    right: 12px;
     top: 25px;
     background-color: #fff; 
     .newmenu_toggle__on &{

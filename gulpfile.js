@@ -23,8 +23,8 @@ function errorAlert(error){
 //ftp
 /*var conn = ftp.create( {
   host:     '185.47.153.28',
-  user:     'wfsadmin',
-  password: 'Gfhnyth6059272',
+  user:     '',
+  password: '',
   parallel: 10
 } );*/
 // css

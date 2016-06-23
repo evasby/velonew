@@ -62,8 +62,10 @@
       max-width: 138px!important;
       background: url('../images/addcart_popup_popup1.png') 100% 0 no-repeat!important;
       background-size: contain!important;
-      &:hover{
+      &:hover,
+      &:active{
         background: url('../images/addcart_popup_popup2.png') 100% 0 no-repeat!important;
+        background-size: contain!important;
       }
     }
   }

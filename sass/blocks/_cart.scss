@@ -33,7 +33,7 @@
 	position: fixed;
 	right: 15px;
 	top: 15px;
-	z-index: 9999;
+	z-index: 10;
 	font-family: Tahoma,​Arial,​Helvetica,​sans-serif;
 	font-size: 13px;
 	transition: opacity, 0.2s;
@@ -64,8 +64,30 @@
 		display: block;
 		text-align: right;
 	}
-	@include m960{
+	&_mobile{
 		display: none;
+	}
+	@include m960{
+		opacity: 1;
+		border: 0;
+		background: none;
+		right: auto;
+		left: 0;
+		top: 0;
+		padding: 0;
+		.view{
+			display: none;
+		}
+		&_mobile{
+			display: block;
+			width: 53px;
+			height: 53px;
+			background: url('../images/basket3.png');
+			background-size: 100%;
+			text-indent: 100%;
+			white-space: nowrap;
+			overflow: hidden;
+		}
 	}
 }
 body.page-cart{
