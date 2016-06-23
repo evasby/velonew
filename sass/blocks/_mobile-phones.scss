@@ -1,0 +1,49 @@
+.mobile-phones{
+	display: none;
+	@include m960{
+		display: block;
+		position: fixed;
+		bottom: 0;
+		left: 0;
+		width: 100%;
+		@include clearfix;
+	}
+	&_left{
+		background-color: #2C3E51;
+		float: left;
+		@include link(#fff, #fff);
+		text-decoration: none;
+		padding: 14px 10px 14px 40px;
+		cursor: pointer;
+		position: relative;
+		&:before{
+			content: '';
+			position: absolute;
+			left: 6px;
+			top: 8px;
+			width: 28px;
+			height: 28px;
+			background: url('../images/phone.png') no-repeat;
+			background-size: contain;
+		}
+	}
+	&_right{
+		background-color: #2C3E51;
+		float: right;
+		@include link(#fff, #fff);
+		text-decoration: none;
+		padding: 14px 10px 14px 40px;
+		cursor: pointer;
+		position: relative;
+		&:before{
+			content: '';
+			position: absolute;
+			left: 6px;
+			top: 8px;
+			width: 28px;
+			height: 28px;
+			background: url('../images/phone.png') no-repeat;
+			background-size: contain;
+		}
+	}
+}

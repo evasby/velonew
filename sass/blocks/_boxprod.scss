@@ -3,11 +3,15 @@
 	&_item{
 		float: left;
 	  margin: 5px 2.66%;
-	  overflow: hidden;
+	  //overflow: hidden;
 	  padding: 7px 0 10px;
 	  position: relative;
 	  width: 28%;
 	  height: 155px;
+	  @include m530{
+    	margin: 5px 0.66%;
+    	width: 32%;
+    }
 	  .boxprod.thule_prod &{
 	  	height: auto;
 	  	min-height: 340px;
@@ -65,14 +69,18 @@
 	    min-height: 51px;
 	    text-align: center;
 	    @include m960{
+	    	padding: 0;
 	    	.boxprod__thule &{
 		    	font-size: 14px;
 		    	min-height: 61px;
 		    }
 	    }
+	    @include m530{
+	    	font-size: 11px;
+	    }
 	    @include m360{
 	    	.boxprod__thule &{
-	    		font-size: 12px;
+	    		font-size: 11px;
 	    	}
 	    }
 	    a{

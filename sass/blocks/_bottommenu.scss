@@ -1,6 +1,9 @@
 .bottommenu{
 	background-color: #F0F0F0;
 	padding: 10px 0 11px 0;
+	@include m960{
+		display: none;
+	}
 	&_list{
 		text-align: center;
 	}

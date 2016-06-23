@@ -1,12 +1,13 @@
 .newslider{
-  @include m960{
-    display: none;
-  }
   margin-bottom: 10px;
   height: 374px;
   overflow: hidden;
 	&_item{
 		position: relative;
+    img{
+      width: 100%;
+      height: auto;
+    }
 	}
 	&_link{
 		position: absolute;
@@ -36,7 +37,14 @@
             opacity: 0.5;
         }
     }
+    @include m960{
+      font-size: 16px;
+      bottom: 5px;
+    }
 	}
+  @include m960{
+    height: auto;
+  }
 }
 /*! lightslider - v1.1.5 - 2015-10-31
 * https://github.com/sachinchoolur/lightslider

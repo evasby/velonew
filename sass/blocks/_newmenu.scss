@@ -61,18 +61,32 @@
   &_toggle{
     box-sizing: border-box;
     height: 53px;
-    width: 53px;
+    width: 120px;
     padding: 16px 0 0 15px;
     background-color: #2C3E51;
+    background-color: #e74c3c;
     cursor: pointer;
     display: none;
     position: fixed;
     z-index: 10;
     right: 0;
     top: 0;
+    &__on{
+      background-color: #2C3E51;
+    }
     @include m960{
       display: block;
     }   
+  }
+  &_text{
+    position: relative;
+    top: 3px;
+    color: #fff;
+    font-family: open-sans, sans-serif;
+    text-transform: uppercase;
+    .newmenu_toggle__on &{
+      display: none;
+    }
   }
   &_switch{
     position: absolute;

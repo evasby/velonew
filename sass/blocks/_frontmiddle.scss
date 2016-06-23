@@ -1,6 +1,9 @@
 .frontmiddle{
 	@include clearfix;
 	padding: 15px 0 22px 0;
+	@include m960{
+		display: none;
+	}
 	&_left{
 		float: left;
 		width: 41%;
