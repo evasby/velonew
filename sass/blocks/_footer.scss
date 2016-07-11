@@ -5,6 +5,16 @@
 	line-height: 17px;
 	color: #fff;
 	font-weight: 700;
+	&_p1{
+		@include m960{
+			display: none;
+		}
+	}
+	&_p2{
+		@include m960{
+			display: none;
+		}
+	}
 	&_top{
 		margin-bottom: 10px;
 		background-color: #2C3E51;

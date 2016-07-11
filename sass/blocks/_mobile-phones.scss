@@ -9,7 +9,7 @@
 		@include clearfix;
 	}
 	&_left{
-		background-color: #2C3E51;
+		background-color: #e74c3c;
 		float: left;
 		@include link(#fff, #fff);
 		text-decoration: none;
@@ -28,7 +28,7 @@
 		}
 	}
 	&_right{
-		background-color: #2C3E51;
+		background-color: #e74c3c;
 		float: right;
 		@include link(#fff, #fff);
 		text-decoration: none;

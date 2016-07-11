@@ -5,6 +5,9 @@
 		@include clearfix;
 		padding-bottom: 10px;
 		overflow: hidden;
+		@include m960{
+			padding-bottom: 53px;
+		}
 	}
 	&_left{
 		float: left;
@@ -37,6 +40,7 @@
 		@include m960{
 			float: none;
 			width: 100%;
+			display: none;
 		}
 	}
 	&_right{

@@ -372,6 +372,9 @@ pre {
       overflow: hidden; }
     .header_top:after {
       clear: both; }
+    @media all and (max-width: 959px) {
+      .header_top {
+        padding-bottom: 53px; } }
   .header_left {
     float: left;
     width: 40%;
@@ -400,7 +403,8 @@ pre {
     @media all and (max-width: 959px) {
       .header_center {
         float: none;
-        width: 100%; } }
+        width: 100%;
+        display: none; } }
   .header_right {
     float: left;
     width: 40%;
@@ -987,7 +991,7 @@ pre {
         width: 32%; } }
     .boxprod.thule_prod .boxprod_item {
       height: auto;
-      min-height: 340px; }
+      height: 340px; }
       @media all and (max-width: 959px) {
         .boxprod.thule_prod .boxprod_item {
           min-height: 0;
@@ -2003,7 +2007,7 @@ pre {
   background-image: url("../images/controls.png");
   cursor: pointer;
   position: absolute;
-  z-index: 99;
+  z-index: 14;
   margin-top: -16px;
   opacity: 0.5;
   -webkit-transition: opacity 0.35s linear 0s;
@@ -2425,6 +2429,12 @@ body.page-checkout-complete .content {
   line-height: 17px;
   color: #fff;
   font-weight: 700; }
+  @media all and (max-width: 959px) {
+    .footer_p1 {
+      display: none; } }
+  @media all and (max-width: 959px) {
+    .footer_p2 {
+      display: none; } }
   .footer_top {
     margin-bottom: 10px;
     background-color: #2C3E51;
@@ -2493,7 +2503,7 @@ body.page-checkout-complete .content {
       .mobile-phones:after {
         clear: both; } }
   .mobile-phones_left {
-    background-color: #2C3E51;
+    background-color: #e74c3c;
     float: left;
     color: #fff;
     text-decoration: none;
@@ -2518,7 +2528,7 @@ body.page-checkout-complete .content {
       background: url("../images/phone.png") no-repeat;
       background-size: contain; }
   .mobile-phones_right {
-    background-color: #2C3E51;
+    background-color: #e74c3c;
     float: right;
     color: #fff;
     text-decoration: none;
