@@ -1,5 +1,4 @@
 .velo{
-  
   .view-header.thule{
     padding: 15px 15px 15px 15px;
     img{
@@ -14,7 +13,9 @@
       }
     }
   }
-  #views-exposed-form-bike2-default{
+  #views-exposed-form-bike2-default,
+  #views-exposed-form-begoveli-prod-default,
+  #views-exposed-form-begoveli-cat-default{
     .form-item-sort-bef-combine > label{
       float: left;
       //display: inline-block;

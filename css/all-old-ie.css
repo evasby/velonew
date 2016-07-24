@@ -1084,9 +1084,13 @@ pre {
         .velo .view-header.thule img {
           width: 100% !important;
           height: auto !important; } }
-  .velo #views-exposed-form-bike2-default .form-item-sort-bef-combine > label {
+  .velo #views-exposed-form-bike2-default .form-item-sort-bef-combine > label,
+  .velo #views-exposed-form-begoveli-prod-default .form-item-sort-bef-combine > label,
+  .velo #views-exposed-form-begoveli-cat-default .form-item-sort-bef-combine > label {
     float: left; }
-  .velo #views-exposed-form-bike2-default .form-radios {
+  .velo #views-exposed-form-bike2-default .form-radios,
+  .velo #views-exposed-form-begoveli-prod-default .form-radios,
+  .velo #views-exposed-form-begoveli-cat-default .form-radios {
     float: left; }
   .velo .views-exposed-form .views-exposed-widgets {
     width: 960px;
@@ -2552,3 +2556,14 @@ body.page-checkout-complete .content {
       height: 28px;
       background: url("../images/phone.png") no-repeat;
       background-size: contain; }
+
+.wfs {
+  display: block;
+  text-indent: 100%;
+  white-space: nowrap;
+  overflow: hidden;
+  max-width: 152px;
+  margin: 0 auto;
+  height: 34px; }
+  .wfs img {
+    display: block; }
