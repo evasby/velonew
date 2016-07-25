@@ -893,6 +893,9 @@ pre {
     text-align: center;
     text-transform: uppercase; }
 
+.node-news h1 {
+  padding-top: 15px; }
+
 .myform {
   float: right;
   /*height: 272px;*/
