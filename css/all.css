@@ -864,7 +864,7 @@ pre {
   position: relative;
   text-align: center;
   text-transform: uppercase;
-  width: 189px; }
+  width: 220px; }
   .page-content h1.thule-title,
   .page-node .page-content h1, .page-content h2.thule-title,
   .page-node .page-content h2 {
@@ -990,6 +990,8 @@ pre {
       .boxprod.thule_prod .boxprod_item {
         min-height: 0;
         margin-bottom: 25px; } }
+  .view-access-root .boxprod_item {
+    height: 90px; }
   @media all and (max-width: 959px) {
     .boxprod__thule .boxprod_item {
       padding: 0; } }
@@ -1079,12 +1081,20 @@ pre {
 
 .velo #views-exposed-form-bike2-default .form-item-sort-bef-combine > label,
 .velo #views-exposed-form-begoveli-prod-default .form-item-sort-bef-combine > label,
-.velo #views-exposed-form-begoveli-cat-default .form-item-sort-bef-combine > label {
+.velo #views-exposed-form-begoveli-cat-default .form-item-sort-bef-combine > label,
+.velo #views-exposed-form-thule-cat-default .form-item-sort-bef-combine > label,
+.velo #views-exposed-form-thule-prodnew-default .form-item-sort-bef-combine > label,
+.velo #views-exposed-form-access-prod-default .form-item-sort-bef-combine > label,
+.velo #views-exposed-form-access-cat-default .form-item-sort-bef-combine > label {
   float: left; }
 
 .velo #views-exposed-form-bike2-default .form-radios,
 .velo #views-exposed-form-begoveli-prod-default .form-radios,
-.velo #views-exposed-form-begoveli-cat-default .form-radios {
+.velo #views-exposed-form-begoveli-cat-default .form-radios,
+.velo #views-exposed-form-thule-cat-default .form-radios,
+.velo #views-exposed-form-thule-prodnew-default .form-radios,
+.velo #views-exposed-form-access-prod-default .form-radios,
+.velo #views-exposed-form-access-cat-default .form-radios {
   float: left; }
 
 .velo .views-exposed-form .views-exposed-widgets {

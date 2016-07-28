@@ -20,6 +20,9 @@
 	  		margin-bottom: 25px;
 	  	}
 	  }
+	  .view-access-root &{
+	  	height: 90px;
+	  }
 	  @include m960{
     	.boxprod__thule &{
 	    	padding: 0;
