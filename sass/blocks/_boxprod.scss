@@ -1,5 +1,8 @@
 .boxprod{
 	@include clearfix;
+	.page-accessories &{
+		margin-bottom: 20px;
+	}
 	&_item{
 		float: left;
 	  margin: 5px 2.66%;
@@ -22,6 +25,11 @@
 	  }
 	  .view-access-root &{
 	  	height: 90px;
+	  	.page-accessories &{
+	    	height: 25px;
+	    	width: 50%;
+	    	margin: 0;
+	    }
 	  }
 	  @include m960{
     	.boxprod__thule &{
@@ -63,6 +71,9 @@
 	    	width: 100%;
 	    	max-width: 192px;
 	    	height: auto;
+	    }
+	    .page-accessories &{
+	    	display: none;
 	    }
 	  }
 	  h3{

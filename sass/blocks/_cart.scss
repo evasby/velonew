@@ -274,6 +274,11 @@ body.page-checkout{
 		}
 	}
 }
+body.admin-menu{
+	.commerce_payment{
+		display: block;
+	}
+}
 body.page-checkout-complete{
 	.content{
 		padding-top: 15px;
