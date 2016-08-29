@@ -164,6 +164,15 @@ body.page-cart{
 	}
 }
 body.page-checkout{
+	.checkout-help{
+		padding: 15px 0;
+	}
+	.form-radio{
+		margin-bottom: 7px;
+	}
+	/*#payment-details{
+		padding-bottom: 15px;
+	}*/
 	.content{
 		padding-bottom: 50px;
 	}
