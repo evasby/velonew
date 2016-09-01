@@ -2354,6 +2354,9 @@ body.page-cart .view-commerce-cart-form .delete-line-item {
 body.page-checkout {
   /*#payment-details{
 		padding-bottom: 15px;
+	}*/
+  /*.commerce_payment{
+		display: none;
 	}*/ }
   body.page-checkout .checkout-help {
     padding: 15px 0; }
@@ -2361,8 +2364,6 @@ body.page-checkout {
     margin-bottom: 7px; }
   body.page-checkout .content {
     padding-bottom: 50px; }
-  body.page-checkout .commerce_payment {
-    display: none; }
   body.page-checkout .checkout_review {
     padding: 15px 0; }
     body.page-checkout .checkout_review .checkout-review {
@@ -2432,9 +2433,11 @@ body.page-checkout {
   body.page-checkout .street-block .form-item:nth-child(2) {
     display: none; }
 
-body.admin-menu .commerce_payment {
-  display: block; }
-
+/*body.admin-menu{
+	.commerce_payment{
+		display: block;
+	}
+}*/
 body.page-checkout-complete .content {
   padding-top: 15px; }
 

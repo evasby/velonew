@@ -176,9 +176,9 @@ body.page-checkout{
 	.content{
 		padding-bottom: 50px;
 	}
-	.commerce_payment{
+	/*.commerce_payment{
 		display: none;
-	}
+	}*/
 	.checkout_review{
 		padding: 15px 0;
 		.checkout-review{
@@ -283,11 +283,11 @@ body.page-checkout{
 		}
 	}
 }
-body.admin-menu{
+/*body.admin-menu{
 	.commerce_payment{
 		display: block;
 	}
-}
+}*/
 body.page-checkout-complete{
 	.content{
 		padding-top: 15px;
