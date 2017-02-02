@@ -2,6 +2,9 @@
   margin-bottom: 10px;
   height: 374px;
   overflow: hidden;
+  @include m960{
+    display: none;
+  }
 	&_item{
 		position: relative;
     img{

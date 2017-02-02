@@ -39,7 +39,9 @@
       text-align: center;
       text-transform: uppercase;
     }
-    
+    @include m960{
+      background-color: #2c3e51;
+    }
 	}
 }
 .node-news h1{

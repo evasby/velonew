@@ -19,6 +19,9 @@
 @mixin m530 {
   @media all and (max-width: 530px) { @content; }
 }
+@mixin m768 {
+  @media all and (max-width: 768px) { @content; }
+}
 //*********************************************************************************/
 @mixin placeholder($color, $opacity:1){
   ::-webkit-input-placeholder { /* Safari, Chrome and Opera */

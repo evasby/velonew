@@ -1,0 +1,27 @@
+.menu-mobile{
+	display: none;
+	@include m960{
+		display: block;
+		padding: 25px 0 25px;
+		background: #2c3e51 url('../images/menu-mobile-bac.png') left bottom no-repeat;
+		background-size: 67px 50px;
+	}
+	&_item{
+		border: 2px solid #fff;
+		max-width: 195px;
+		margin: 0 auto 9px auto;
+	}
+	&_link{
+		display: block;
+		height: 32px;
+		line-height: 32px;
+		text-align: center;
+		@include link(#fff, #fff);
+	}
+	&_wrap{
+		font-family: helios, open-sans, sans-serif;
+		text-transform: uppercase;
+		font-size: 15px;
+		//text-decoration: underline;
+	}
+}

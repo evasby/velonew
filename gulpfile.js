@@ -40,7 +40,7 @@ gulp.task('css', function () {
       cascade: false
     }))
     .pipe(gulp.dest('css'))
-    .pipe(gulp.dest('D:/OpenServer/domains/velogrand-new/sites/all/themes/velogrand/css'))
+    .pipe(gulp.dest('c:/OS2/OpenServer/domains/velogrand-02-02-2017/sites/all/themes/velogrand/css'))
     //.pipe( conn.dest( '/www/new.on-bike.by/bitrix/templates/onbike' ) )
     //.pipe( conn.dest( '/www/temp.on-bike.by/bitrix/templates/onbike' ) )
     .pipe(notify('CSS - Done!'));

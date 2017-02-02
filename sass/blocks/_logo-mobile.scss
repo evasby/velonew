@@ -1,0 +1,14 @@
+.logo-mobile{
+	display: none;
+	@include m960{
+		display: block;
+		padding: 9px 0 22px;
+		box-shadow: inset 0px -4px 0px 0px rgba(233,80,59,1);
+		border-bottom: 2px solid #fff;
+		img{
+			display: block;
+			max-width: 225px;
+			margin: 0 auto;
+		}
+	}
+}
