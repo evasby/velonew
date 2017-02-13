@@ -1,0 +1,29 @@
+.newbotttommenu{
+	margin: 30px 30px 0 0;
+	@include clearfix;
+	&_list{
+		float: right;
+		text-align: right;
+	}
+	&_item{
+		display: inline-block;
+		margin: 0 0 0 45px;
+	}
+	&_link{
+		font-family: heliosbold;
+		font-size: 20px;
+		padding: 2px 0 0;
+		display: block;
+		width: 142px;
+		height: 29px;
+		@include link(#fff, #264258);
+		text-transform: lowercase;
+		text-decoration: none;
+		border: 1px solid #f1f2f4;
+		text-align: center;
+		border-radius: 4px;
+		&:hover{
+			background-color: #ebebeb;
+		}
+	}
+}

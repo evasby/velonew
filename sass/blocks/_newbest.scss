@@ -1,0 +1,85 @@
+.newbest{
+	&,
+	& *{
+		box-sizing: border-box;
+	}
+	font-family: helios;
+	&_list{
+		@include clearfix;
+	}
+	&_item{
+		position: relative;
+		background-color: #fff;
+		float: left;
+		width: 32.50%;
+		height: 189px;
+		margin: 0 0 0 1.25%;
+		border: 5px solid #fff;
+		box-shadow: inset 0px 0px 0px 1px rgba(238,122,105,1);
+		transition: opacity 0.2s;
+		&:first-child{
+			margin: 0;
+		}
+		&:nth-child(even){
+			box-shadow: inset 0px 0px 0px 1px rgba(89,110,127,1);
+		}
+		&:hover{
+			opacity: 0.8;
+		}
+	}
+	&_link{
+		display: block;
+		overflow: hidden;
+		text-decoration: none;
+	}
+	&_wrap{
+		@include clearfix;
+		margin: 0 1px 0 0;
+	}
+	&_image{
+		float: right;
+		width: 236px;
+		height: 140px;
+		img{
+			width: 100%;
+			height: auto;
+		}
+	}
+	&_head{
+		font-family: heliosblack;
+		padding: 3px 0 0 13px;
+		margin: 0 0 10px;
+		font-size: 25px;
+		color: #cacbcc;
+		text-transform: uppercase;
+	}
+	&_name{
+		padding: 8px 0 0 13px;
+		font-size: 14px;
+		line-height: 16px;
+		width: 110px;
+		color: #264258;
+		position: absolute;
+		left: 0;
+		top: 30px;
+	}
+	&_price{
+		//font-family: heliosbold;
+		color: #fff;
+		font-size: 21px;
+		text-transform: uppercase;
+		position: absolute;
+		left: 0px;
+		bottom: 13px;
+		width: 95px;
+		height: 27px;
+		padding: 0 0 0 11px;
+		line-height: 27px;
+		background: rgba(233,83,59,1);
+    background: linear-gradient(to right, rgba(233,83,59,1) 0%, rgba(179,50,30,1) 100%);
+    .newbest_item:nth-child(even) &{
+    	background: rgba(49,86,116,1);
+      background: linear-gradient(to right, rgba(49,86,116,1) 0%, rgba(31,58,80,1) 100%);
+    }
+	}
+}

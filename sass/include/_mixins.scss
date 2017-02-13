@@ -11,7 +11,7 @@
   @media all and (max-width: 1023px) { @content; }
 }
 @mixin m960 {
-  @media all and (max-width: 959px) { @content; }
+  @media all and (max-width: 1000px) { @content; }
 }
 @mixin m360 {
   @media all and (max-width: 359px) { @content; }

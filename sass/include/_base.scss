@@ -20,6 +20,10 @@ body{
   max-width: 960px;
   margin: 0 auto;
   overflow: hidden;
+  .front &{
+  	max-width: 1000px;
+    overflow: visible;
+  }
 }
 a{
   text-decoration: underline;

@@ -1,4 +1,5 @@
 .frontmiddle{
+	display: none;
 	@include clearfix;
 	padding: 15px 0 22px 0;
 	@include m960{

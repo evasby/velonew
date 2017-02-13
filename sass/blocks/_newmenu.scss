@@ -1,5 +1,5 @@
 .newmenu{
-	background-color: #2c3e51;
+	background-color: #e9513b;
   @include m960{
     background-color: #e9503b;
     position: fixed;
@@ -9,6 +9,7 @@
     z-index: 20;
   }
 	&_list{
+    padding: 0 110px;
 		text-align: justify;
     line-height: 0!important;
     font-size: 1px;
@@ -26,6 +27,7 @@
       display: inline-block;
     }
     @include m960{
+      padding: 0;
       text-align-last: center;
       text-align: center;
       display: none;
@@ -35,7 +37,7 @@
 	&_item{
     display: inline-block;
     text-align: left;
-    line-height: 35px;
+    line-height: 45px;
     font-size: 18px;
     vertical-align: top;
 		@include old-ie{
@@ -43,13 +45,14 @@
     	*zoom : 1;
 		}
     @include m960{
+      line-height: 35px;
       display: block;
       text-align: center;
     }
 	}
 	&_link{
 		font-family: helios, open-sans, sans-serif!important;
-		font-size: 20px!important;
+		font-size: 18px!important;
 		display: inline-block;
 		padding: 0 12px;
 		white-space: nowrap;
@@ -59,13 +62,16 @@
     font-weight: bold;
 		transition: all, 0.2s;
     &:hover{
-    	background: rgba(0, 0, 0, 0.2);
+    	background: #264258;
     }
     @include m960{
       display: block;
       text-align: center;
       font-weight: 400;
       font-size: 16px!important;
+      &:hover{
+        background: rgba(0, 0, 0, 0.2);
+      }
     }
 	}
   &_toggle{

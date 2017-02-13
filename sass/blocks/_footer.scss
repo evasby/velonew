@@ -1,6 +1,6 @@
 .footer{
 	text-align: center;
-	padding-bottom: 10px;
+	//padding-bottom: 10px;
 	font-size: 14px;
 	line-height: 17px;
 	color: #fff;
@@ -19,6 +19,7 @@
 		}
 	}
 	&_top{
+		display: none;
 		margin-bottom: 10px;
 		background-color: #2C3E51;
 		padding: 11px 0 5px 0;

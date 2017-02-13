@@ -12,3 +12,12 @@
     url("../fonts/HeliosCondBold/HeliosCondBold.woff") format("woff"),
     url("../fonts/HeliosCondBold/HeliosCondBold.ttf") format("truetype");
 }
+@font-face {
+    font-family: "heliosblack";
+    src: url("../fonts/HeliosBlack/HeliosBlack.eot");
+    src: url("../fonts/HeliosBlack/HeliosBlack.eot?#iefix")format("embedded-opentype"),
+    url("../fonts/HeliosBlack/HeliosBlack.woff") format("woff"),
+    url("../fonts/HeliosBlack/HeliosBlack.ttf") format("truetype");
+    font-style: normal;
+    font-weight: normal;
+}
