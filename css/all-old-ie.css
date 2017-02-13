@@ -1994,7 +1994,7 @@ pre {
   .newbotttommenu_link {
     font-family: heliosbold;
     font-size: 20px;
-    padding: 2px 0 0;
+    padding: 2px 0 0 30px;
     display: block;
     width: 142px;
     height: 29px;
@@ -2003,7 +2003,10 @@ pre {
     text-decoration: none;
     border: 1px solid #f1f2f4;
     text-align: center;
-    border-radius: 4px; }
+    border-radius: 4px;
+    position: relative;
+    -webkit-transition: background-color 0.2s;
+    transition: background-color 0.2s; }
     .newbotttommenu_link:link {
       color: #fff; }
     .newbotttommenu_link:visited {
@@ -2014,6 +2017,54 @@ pre {
       color: #264258; }
     .newbotttommenu_link:hover {
       background-color: #ebebeb; }
+  .newbotttommenu_svg {
+    position: absolute;
+    top: 0;
+    left: 0;
+    -webkit-transition: fill 0.2s;
+    transition: fill 0.2s; }
+    .newbotttommenu_svg__1 {
+      width: 23px;
+      height: 21px;
+      position: absolute;
+      top: 4px;
+      left: 23px; }
+      .newbotttommenu_svg__1 .st0 {
+        fill-rule: evenodd;
+        clip-rule: evenodd;
+        fill: #fff; }
+    .newbotttommenu_svg__2 {
+      width: 22px;
+      height: 18px;
+      position: absolute;
+      top: 4px;
+      left: 11px; }
+      .newbotttommenu_svg__2 .st0 {
+        fill-rule: evenodd;
+        clip-rule: evenodd;
+        fill: #fff; }
+    .newbotttommenu_svg__3 {
+      width: 20px;
+      height: 20px;
+      position: absolute;
+      top: 2px;
+      left: 16px; }
+      .newbotttommenu_svg__3 .st0 {
+        fill-rule: evenodd;
+        clip-rule: evenodd;
+        fill: #fff; }
+    .newbotttommenu_svg__4 {
+      width: 22px;
+      height: 18px;
+      position: absolute;
+      top: 4px;
+      left: 19px; }
+      .newbotttommenu_svg__4 .st0 {
+        fill-rule: evenodd;
+        clip-rule: evenodd;
+        fill: #fff; }
+    .newbotttommenu_link:hover .newbotttommenu_svg .st0 {
+      fill: #2B3A4B; }
 
 .newfooter {
   padding: 17px 0 0;

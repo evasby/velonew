@@ -12,7 +12,7 @@
 	&_link{
 		font-family: heliosbold;
 		font-size: 20px;
-		padding: 2px 0 0;
+		padding: 2px 0 0 30px;
 		display: block;
 		width: 142px;
 		height: 29px;
@@ -22,8 +22,53 @@
 		border: 1px solid #f1f2f4;
 		text-align: center;
 		border-radius: 4px;
+		position: relative;
+		transition: background-color 0.2s;
 		&:hover{
 			background-color: #ebebeb;
+		}
+	}
+	&_svg{
+		position: absolute;
+		top: 0;
+		left: 0;
+		transition: fill 0.2s;
+		&__1{
+			width: 23px;
+			height: 21px;
+			.st0{fill-rule:evenodd;clip-rule:evenodd;fill:#fff};
+			position: absolute;
+			top: 4px;
+			left: 23px;
+		}
+		&__2{
+			width: 22px;
+			height: 18px;
+			.st0{fill-rule:evenodd;clip-rule:evenodd;fill:#fff;}
+			position: absolute;
+			top: 4px;
+			left: 11px;
+		}
+		&__3{
+			width: 20px;
+			height: 20px;
+			.st0{fill-rule:evenodd;clip-rule:evenodd;fill:#fff;}
+			position: absolute;
+			top: 2px;
+			left: 16px;
+		}
+		&__4{
+			width: 22px;
+			height: 18px;
+			.st0{fill-rule:evenodd;clip-rule:evenodd;fill:#fff;}
+			position: absolute;
+			top: 4px;
+			left: 19px;
+		}
+		.newbotttommenu_link:hover &{
+			.st0{
+				fill:#2B3A4B;
+			}	
 		}
 	}
 }
