@@ -27,6 +27,7 @@
 .myimage{
   //background: transparent url("../images/loupe44.jpg") no-repeat scroll left top / cover ;
   //border-color: #2c3e51;
+  display: block;
   color: #000000;
   min-height: 161px;
   width: 100%;
@@ -96,8 +97,11 @@
   }
 }
 .mydescr{
+  display: block;
   background-color: transparent;
   color: #2c3e51;
+  @include link(#2c3e51, #2c3e51);
+  text-decoration: none;
   padding-top: 10px;
   //margin-right: -10000px;
   height: 100px;

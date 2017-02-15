@@ -1370,6 +1370,7 @@ pre {
         margin: 0 auto; } }
 
 .myimage {
+  display: block;
   color: #000000;
   min-height: 161px;
   width: 100%;
@@ -1429,8 +1430,11 @@ pre {
       width: 39%; } }
 
 .mydescr {
+  display: block;
   background-color: transparent;
   color: #2c3e51;
+  color: #2c3e51;
+  text-decoration: none;
   padding-top: 10px;
   height: 100px;
   min-height: 96px;
@@ -1438,6 +1442,14 @@ pre {
   width: 454px;
   width: 454px;
   font-size: 14px; }
+  .mydescr:link {
+    color: #2c3e51; }
+  .mydescr:visited {
+    color: #2c3e51; }
+  .mydescr:hover {
+    color: #2c3e51; }
+  .mydescr:active {
+    color: #2c3e51; }
   .mydescr:before, .mydescr:after {
     content: ".";
     display: block;
