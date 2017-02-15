@@ -1936,9 +1936,8 @@ pre {
     position: absolute;
     left: 0px;
     bottom: 13px;
-    width: 95px;
     height: 27px;
-    padding: 0 0 0 11px;
+    padding: 0 11px;
     line-height: 27px;
     background: #e9533b;
     background: -webkit-gradient(linear, left top, right top, from(#e9533b), to(#b3321e));
@@ -1973,7 +1972,7 @@ pre {
     line-height: 18px;
     color: #fff; }
     .newabout_text p {
-      display: inline; }
+      margin: 0 0 10px; }
 
 .newbotttommenu {
   margin: 30px 30px 0 0;
@@ -2070,18 +2069,19 @@ pre {
   padding: 17px 0 0;
   height: 82px;
   border-top: 5px solid #fff;
-  background-color: #e9513b;
-  *zoom: 1; }
-  .newfooter:before, .newfooter:after {
-    content: ".";
-    display: block;
-    height: 0;
-    overflow: hidden; }
-  .newfooter:after {
-    clear: both; }
+  background-color: #e9513b; }
   @media all and (max-width: 1000px) {
     .newfooter {
       display: none; } }
+  .newfooter_inner {
+    *zoom: 1; }
+    .newfooter_inner:before, .newfooter_inner:after {
+      content: ".";
+      display: block;
+      height: 0;
+      overflow: hidden; }
+    .newfooter_inner:after {
+      clear: both; }
   .newfooter_left {
     float: left;
     width: 33.33%;
@@ -3028,12 +3028,11 @@ body.page-checkout-complete .content {
 
 .wfs {
   display: block;
-  display: none;
   text-indent: 100%;
   white-space: nowrap;
   overflow: hidden;
   max-width: 152px;
-  margin: 0 auto;
+  margin: 23px auto 10px;
   height: 34px; }
   .wfs img {
     display: block; }
