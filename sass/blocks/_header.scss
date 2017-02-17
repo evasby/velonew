@@ -1,6 +1,38 @@
 .header{
 	position: relative;
 	z-index: 15;
+	&_newtop{
+		@include clearfix;
+		padding: 21px 106px 18px 112px;
+		@include m960{
+			padding: 0;
+		}
+	}
+	&_newtopl{
+		float: left;
+		width: 33.33%;
+		@include m960{
+			float: none;
+			width: 100%;
+		}
+	}
+	&_newtopc{
+		float: left;
+		width: 33.33%;
+		padding: 10px 0 0 26px;
+		@include m960{
+			display: none;
+		}
+	}
+	&_newtopr{
+		float: left;
+		width: 33.33%;
+		text-align: right;
+		padding: 14px 0 0;
+		@include m960{
+			display: none;
+		}
+	}
 	&_top{
 		display: none;
 		@include clearfix;
