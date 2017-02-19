@@ -2170,27 +2170,25 @@ pre {
 
 .newfooter {
   padding: 17px 0 0;
-  height: 82px;
+  height: 25px;
   border-top: 5px solid #fff;
   background-color: #e9513b; }
   @media all and (max-width: 1000px) {
     .newfooter {
       display: none; } }
-  .newfooter_inner:before, .newfooter_inner:after {
-    content: ".";
-    display: block;
-    height: 0;
-    overflow: hidden; }
-  .newfooter_inner:after {
-    clear: both; }
+  .newfooter_inner {
+    display: none; }
   .newfooter_left {
+    display: none;
     float: left;
     width: 33.33%;
     padding: 0 0 0 47px; }
   .newfooter_center {
+    display: none;
     float: left;
     width: 33.33%; }
   .newfooter_right {
+    display: none;
     float: left;
     width: 33.33%;
     text-align: right;
@@ -3133,7 +3131,7 @@ body.page-checkout-complete .content {
   white-space: nowrap;
   overflow: hidden;
   max-width: 152px;
-  margin: 23px auto 10px;
+  margin: 17px auto 10px;
   height: 34px; }
   .wfs img {
     display: block; }

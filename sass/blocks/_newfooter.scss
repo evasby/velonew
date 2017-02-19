@@ -1,24 +1,29 @@
 .newfooter{
 	padding: 17px 0 0;
-	height: 82px;
+	//height: 82px;
+	height: 25px;
 	border-top: 5px solid #fff;
 	background-color: #e9513b;
 	@include m960{
 		display: none;
 	}
 	&_inner{
-		@include clearfix;
+		display: none;
+		//@include clearfix;
 	}
 	&_left{
+		display: none;
 		float: left;
 		width: 33.33%;
 		padding: 0 0 0 47px;
 	}
 	&_center{
+		display: none;
 		float: left;
 		width: 33.33%;
 	}
 	&_right{
+		display: none;
 		float: left;
 		width: 33.33%;
 		text-align: right;
