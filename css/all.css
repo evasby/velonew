@@ -2169,15 +2169,13 @@ pre {
       fill: #2B3A4B; }
 
 .newfooter {
-  padding: 17px 0 0;
-  height: 25px;
-  border-top: 5px solid #fff;
-  background-color: #e9513b; }
+  border-top: 5px solid #fff; }
   @media all and (max-width: 1000px) {
     .newfooter {
       display: none; } }
   .newfooter_inner {
-    display: none; }
+    height: 25px;
+    background-color: #e9513b; }
   .newfooter_left {
     display: none;
     float: left;

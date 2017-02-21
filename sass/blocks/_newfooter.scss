@@ -1,14 +1,14 @@
 .newfooter{
-	padding: 17px 0 0;
+	//padding: 17px 0 0;
 	//height: 82px;
-	height: 25px;
 	border-top: 5px solid #fff;
-	background-color: #e9513b;
+	
 	@include m960{
 		display: none;
 	}
 	&_inner{
-		display: none;
+		height: 25px;
+		background-color: #e9513b;
 		//@include clearfix;
 	}
 	&_left{
