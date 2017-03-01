@@ -1,0 +1,41 @@
+.bxslider-thumbs{
+	width: 520px;
+	margin: 0 auto;
+	position: relative;
+	&_list{
+		height: 93px;
+		overflow: hidden;
+	}
+	a{
+		border: 1px solid transparent;
+	}
+	a.active{
+		border: 1px solid #2c3e51;
+	}
+	.bx-prev{
+		left: -50px;
+		width: 0;
+		height: 0;
+		border-style: solid;
+		border-width: 15px 15px 15px 0;
+		border-color: transparent #2C3E51 transparent transparent;
+		opacity: 0.5;
+		transition: opacity 0.2s;
+		&:hover{
+			opacity: 1;
+		}
+	}
+	.bx-next{
+		right: -50px;
+		width: 0;
+		height: 0;
+		border-style: solid;
+		border-width: 15px 0 15px 15px;
+		border-color: transparent transparent transparent #2C3E51;
+		opacity: 0.5;
+		transition: opacity 0.2s;
+		&:hover{
+			opacity: 1;
+		}
+	}
+}
