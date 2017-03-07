@@ -1732,8 +1732,8 @@ ul.bxslider {
   color: #2c3e51;
   text-decoration: none;
   padding-top: 10px;
-  height: 100px;
-  min-height: 96px;
+  height: 40px;
+  min-height: 40px;
   position: relative;
   width: 454px;
   *zoom: 1;
