@@ -3417,3 +3417,69 @@ body.page-checkout-complete .content {
 
 .category-description p {
   margin-bottom: 10px; }
+
+.webpay-info {
+  border-bottom: 1px solid #264258; }
+  @media all and (max-width: 1000px) {
+    .webpay-info {
+      display: none; } }
+  .webpay-info_wrap:before, .webpay-info_wrap:after {
+    content: ".";
+    display: block;
+    height: 0;
+    overflow: hidden; }
+  .webpay-info_wrap:after {
+    clear: both; }
+  .webpay-info_list {
+    text-align: center; }
+  .webpay-info_item {
+    cursor: pointer;
+    display: inline-block;
+    padding: 15px 46px;
+    font-family: heliosbold;
+    font-size: 18px;
+    text-transform: uppercase;
+    -webkit-transition: opacity 0.2s;
+    transition: opacity 0.2s; }
+    .webpay-info_item:hover, .webpay-info_item__active {
+      opacity: 0.6; }
+  .webpay-info_spoiler {
+    display: none;
+    padding: 10px 0; }
+    .webpay-info_spoiler h2, .webpay-info_spoiler h3 {
+      font-weight: bold; }
+    .webpay-info_spoiler p {
+      margin: 0 0 10px; }
+    .webpay-info_spoiler ul {
+      padding: 0 0 0 20px;
+      list-style-type: disc !important; }
+
+.carts {
+  padding: 10px 0 0; }
+  @media all and (max-width: 1000px) {
+    .carts {
+      display: none; } }
+  .carts_title {
+    font-family: heliosbold;
+    margin: 0 0 10px 5px; }
+  .carts_item {
+    display: inline-block;
+    margin: 0 10px 0 0; }
+
+.infotext {
+  padding: 15px 0 10px; }
+  .infotext:before, .infotext:after {
+    content: ".";
+    display: block;
+    height: 0;
+    overflow: hidden; }
+  .infotext:after {
+    clear: both; }
+  @media all and (max-width: 1000px) {
+    .infotext {
+      display: none; } }
+  .infotext_side {
+    float: left;
+    width: 50%;
+    font-family: helios;
+    font-size: 15px; }

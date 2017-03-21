@@ -1,0 +1,14 @@
+.carts{
+	@include m960{
+		display: none;
+	}
+	padding: 10px 0 0;
+	&_title{
+		font-family: heliosbold;
+		margin: 0 0 10px 5px;
+	}
+	&_item{
+		display: inline-block;
+		margin: 0 10px 0 0;
+	}
+}

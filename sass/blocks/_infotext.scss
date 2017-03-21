@@ -1,0 +1,13 @@
+.infotext{
+	@include clearfix;
+	padding: 15px 0 10px;
+	@include m960{
+		display: none;
+	}
+	&_side{
+		float: left;
+		width: 50%;
+		font-family: helios;
+		font-size: 15px;
+	}
+}
