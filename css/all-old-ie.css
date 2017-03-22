@@ -3439,7 +3439,7 @@ body.page-checkout-complete .content {
   .webpay-info_item {
     cursor: pointer;
     display: inline-block;
-    padding: 15px 46px;
+    padding: 15px 32px;
     font-family: heliosbold;
     font-size: 18px;
     text-transform: uppercase;
