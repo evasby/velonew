@@ -1735,7 +1735,7 @@ ul.bxslider {
   color: #2c3e51;
   text-decoration: none;
   padding-top: 10px;
-  height: 40px;
+  height: 58px;
   min-height: 40px;
   position: relative;
   width: 454px;
@@ -3364,7 +3364,12 @@ body.page-checkout-complete .content {
     height: 93px;
     overflow: hidden; }
   .bxslider-thumbs a {
-    border: 1px solid transparent; }
+    border: 1px solid transparent;
+    display: inline-block;
+    overflow: hidden; }
+    .bxslider-thumbs a img {
+      width: 100%;
+      height: auto; }
   .bxslider-thumbs a.active {
     border: 1px solid #2c3e51; }
   .bxslider-thumbs .bx-prev {
