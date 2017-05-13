@@ -3400,7 +3400,8 @@ body.page-checkout-complete .content {
 .youtube {
   cursor: pointer;
   height: 81.7px;
-  position: relative; }
+  position: relative;
+  display: inline-block; }
   .youtube:before {
     content: '';
     position: absolute;

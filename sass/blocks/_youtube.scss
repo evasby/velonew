@@ -2,6 +2,7 @@
 	cursor: pointer;
 	height: 81.7px;
 	position: relative;
+	display: inline-block;
 	&:before{
 		content: '';
 		position: absolute;
